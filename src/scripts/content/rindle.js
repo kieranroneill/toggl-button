@@ -34,5 +34,5 @@ togglbutton.render('.card__header:not(.toggl)', { observe: true }, function (ele
         projectName: ''
     });
 
-    $('.toggl__overview-button').appendChild(link);
+    $('.toggl__container', elem).appendChild(link);
 });
